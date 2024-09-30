@@ -59,7 +59,7 @@ Payment {
   id: string;
   invoice_id: string;
   amount: number;
-  payment_method: 'credit_card' | 'paypal';
+  payment_method: 'credit_card' | 'paypal' | 'other';
   payment_date: string;
 }
 ```
